@@ -50,36 +50,36 @@
       h5 Tabla 1.
       span Metodologías ágiles vs Metodologías tradicionales
     
-    .tabla-b.color-acento-contenido.mb-5
+    .tabla-b.color-acento-contenido.mb-5(data-aos="fade-right")
       .tabla-b__header.d-flex.justify-content-around
         h4.mb-0.text-white.col-4.text-end Metodologías Ágiles
         h4.mb-0.text-white.col-4.text-center VS
         h4.mb-0.text-white.col-4.text-start Metodologías Tradicionales
       table
         tr
-          td(data-aos="fade-right") Se enfoca en las personas
-          td(data-aos="fade-left") Se enfoca en los procesos
+          td Se enfoca en las personas
+          td Se enfoca en los procesos
         tr
-          td(data-aos="fade-right") El cliente participa en todas las fases del proyecto
-          td(data-aos="fade-left") El cliente solo participa al inicio del proyecto
+          td El cliente participa en todas las fases del proyecto
+          td El cliente solo participa al inicio del proyecto
         tr
-          td(data-aos="fade-right") El equipo trabaja colaborativamente
-          td(data-aos="fade-left") Cada miembro del equipo desarrolla una tarea
+          td El equipo trabaja colaborativamente
+          td Cada miembro del equipo desarrolla una tarea
         tr
-          td(data-aos="fade-right") Trabaja con proyectos medianos y pequeños
-          td(data-aos="fade-left") Trabaja con cualquier proyecto independientemente del tamaño que sea
+          td Trabaja con proyectos medianos y pequeños
+          td Trabaja con cualquier proyecto independientemente del tamaño que sea
         tr
-          td(data-aos="fade-right") Lleva a cabo los cambios en los requisitos durante todo el proceso
-          td(data-aos="fade-left") No lleva a cabo ningún cambio en los requisitos durante el proceso
+          td Lleva a cabo los cambios en los requisitos durante todo el proceso
+          td No lleva a cabo ningún cambio en los requisitos durante el proceso
         tr
-          td(data-aos="fade-right") Planifica los requisitos del proyecto en una lista de iteraciones (tareas) para realizar en corto tiempo, luego el desarrollo es iterativo
-          td(data-aos="fade-left") Planifica los requisitos del proyecto en un desarrollo que se lleva a cabo de manera lineal durante todo el proceso
+          td Planifica los requisitos del proyecto en una lista de iteraciones (tareas) para realizar en corto tiempo, luego el desarrollo es iterativo
+          td Planifica los requisitos del proyecto en un desarrollo que se lleva a cabo de manera lineal durante todo el proceso
         tr
-          td(data-aos="fade-right") Hay retroalimentaciones por cada iteración para hacer mejoras al producto durante el proceso de desarrollo
-          td(data-aos="fade-left") No hay retroalimentaciones durante el proceso de desarrollo
+          td Hay retroalimentaciones por cada iteración para hacer mejoras al producto durante el proceso de desarrollo
+          td No hay retroalimentaciones durante el proceso de desarrollo
         tr
-          td(data-aos="fade-right") Realiza entregas del proyecto al terminar cada iteración
-          td(data-aos="fade-left") Realiza solo una entrega cuando finaliza el proyecto
+          td Realiza entregas del proyecto al terminar cada iteración
+          td Realiza solo una entrega cuando finaliza el proyecto
     
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
@@ -101,15 +101,15 @@
         | Los individuos y las interacciones que se puedan realizar sobre los procesos y las herramientas.
       li
         .lista-ol--cuadro__vineta
-          span a
+          span b
         | La funcionalidad del software que se desarrolle sobre la excesiva documentación que se haga sobre este.
       li
         .lista-ol--cuadro__vineta
-          span a
+          span c
         | La colaboración con el cliente sobre los detalles de los aspectos contractuales.
       li
         .lista-ol--cuadro__vineta
-          span a
+          span d
         | Las respuestas ante los cambios sobre seguir un plan preestablecido.
     
     p.mb-5 Los valores anteriores se concretaron en doce (12) principios que fueron consignados en un documento llamado Manifiesto Ágil con el objeto de que sirvan como marco de trabajo para cualquier equipo ágil:
@@ -351,9 +351,6 @@ export default {
 </script>
 
 <style lang="sass">
-.modal-edit-1
-  .modal-a__content
-    background-color: #DFF5FA !important
 .pasos-a .pasos-a__item .pasos-a__circle .h2
   color: white !important
 .img-infografica
