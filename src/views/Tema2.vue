@@ -12,14 +12,14 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
-        p.mb-0 El programa Unity es un motor de tipo gráfico; esto quiere decir que contiene muchas funcionalidades que resuelven aspectos en la creación de un videojuego sin que se necesite programar; por ejemplo poner color a un objeto seleccionado, iluminar un plano o cambiar el nivel de una imagen entre otros.
+        p.mb-0(data-aos="fade-left") El programa Unity es un motor de tipo gráfico; esto quiere decir que contiene muchas funcionalidades que resuelven aspectos en la creación de un videojuego sin que se necesite programar; por ejemplo poner color a un objeto seleccionado, iluminar un plano o cambiar el nivel de una imagen entre otros.
           br
           br
           |Para adicionar algún tipo de comportamiento, componente o atributo que no se pueda hacer desde el menú del programa, lo que se debe hacer es escribir líneas de código o scripts para que le proporcionen estas características. Esto es lo que se llama programación orientada a objetos.
 
-    p.mb-5 <b>La Programación Orientada a Objetos -POO-</b> posee las siguientes características:
+    p.mb-5(data-aos="fade-right") <b>La Programación Orientada a Objetos -POO-</b> posee las siguientes características:
 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
       .tarjeta.p-4(titulo="Abstracción" style="background-color: #DFF5FA")
         h4 Abstracción
         p Consiste en abstraer o aislar las características o atributos esenciales que definen un objeto y que lo distinguen de los demás con el propósito de que las pueda usar otro objeto. Por ejemplo si el objeto es una puerta las características esenciales es que tenga un marco, bisagras y cerradura sin importar el tamaño, el color y el tipo de material entre otras.
@@ -36,12 +36,12 @@
         h4 Pila de producto
         p Es el conjunto de características esenciales que han sido separadas de las no esenciales. En el ejemplo de la puerta en el encapsulamiento se encuentra el marco, las bisagras y la cerradura ya que son los atributos principales o generales que hacen que el objeto sea definido como puerta, los demás atributos como el color, el material y el tamaño, hacen parte lo que se consideran características, pues estos son atributos que pueden poseer innumerables tipos de objetos.
 
-    p.mb-5 El lenguaje de programación que se utiliza en Unity para generar las líneas de código o Scripts es C#; el cual se compone de variables, funciones y clases que se explicarán más adelante. Para escribir el código, Unity tiene un editor de texto asociado llamado Visual Studio, aunque el programador puede utilizar simplemente el bloc de notas. El editor (Visual Studio) le ayuda a determinar los errores de sintaxis que se puedan cometer en el desarrollo, por esa razón es recomendable hacer uso de este.   
+    p.mb-5(data-aos="fade-right") El lenguaje de programación que se utiliza en Unity para generar las líneas de código o Scripts es C#; el cual se compone de variables, funciones y clases que se explicarán más adelante. Para escribir el código, Unity tiene un editor de texto asociado llamado Visual Studio, aunque el programador puede utilizar simplemente el bloc de notas. El editor (Visual Studio) le ayuda a determinar los errores de sintaxis que se puedan cometer en el desarrollo, por esa razón es recomendable hacer uso de este.   
       br
       br
       |Antes de comenzar a estructurar un programa en Unity, ver la explicación de algunos conceptos básicos en el siguiente enlace:
     
-    .tarjeta.p-3.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
+    .tarjeta.p-3.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6" data-aos="fade-left")
       .row.justify-content-around.align-items-center
         img(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 98px")
         .col
@@ -58,9 +58,9 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Conceptos básicos de algoritmo y programa
     
-    p.mb-5 Para introducirse en el mundo de la programación, es necesario comprender los procedimientos y técnicas para desarrollar programas, teniendo claro de antemano que estos (programas) se conciben como la solución a un problema o situación determinada. A continuación se exponen los pasos fundamentales que conducen al desarrollo de un software:
+    p.mb-5(data-aos="fade-right") Para introducirse en el mundo de la programación, es necesario comprender los procedimientos y técnicas para desarrollar programas, teniendo claro de antemano que estos (programas) se conciben como la solución a un problema o situación determinada. A continuación se exponen los pasos fundamentales que conducen al desarrollo de un software:
     
-    img.mb-5.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 400px")
+    img.mb-5.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 400px" data-aos="fade-left")
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -87,37 +87,37 @@
               p Es la codificación del algoritmo en un lenguaje de programación que sea interpretado y ejecutado por el ordenador para que se lleve a cabo la solución del problema.
       
     .cajon.color-primario.p-4.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
-      p Para lograr el objetivo de solucionar un problema o tarea, se debe analizar la situación para tener claridad de lo que se pretende, se diseña un algoritmo con los pasos a seguir y se realiza la programación con líneas de código escritas en un lenguaje para ser procesadas y ejecutas por un ordenador del cual se obtienen los resultados esperados.
+      p(data-aos="fade-right") Para lograr el objetivo de solucionar un problema o tarea, se debe analizar la situación para tener claridad de lo que se pretende, se diseña un algoritmo con los pasos a seguir y se realiza la programación con líneas de código escritas en un lenguaje para ser procesadas y ejecutas por un ordenador del cual se obtienen los resultados esperados.
 
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
       h3.mb-0.ps-3 Algoritmo
     
-    p.mb-5 Es el conjunto de pasos o instrucciones ordenadas lógicamente para resolver un problema o realizar una tarea específica. Es uno de los pasos previos antes de entrar a la programación, es decir, antes escribir las líneas de código. Un algoritmo posee características muy definidas para que resulte efectivo:
+    p.mb-5(data-aos="fade-right") Es el conjunto de pasos o instrucciones ordenadas lógicamente para resolver un problema o realizar una tarea específica. Es uno de los pasos previos antes de entrar a la programación, es decir, antes escribir las líneas de código. Un algoritmo posee características muy definidas para que resulte efectivo:
 
     ol.lista-ol--cuadro.lista-ol--separador.col-xl-8.mx-auto.mb-5
       li 
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span a
         | <b>Preciso:</b> tener un objetivo claramente definido.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span b
         | <b>Secuencial:</b> llevar a cabo una serie de pasos en secuencia y siguiendo un orden lógico.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span c
         | <b>Finito:</b> poseer un número delimitado de pasos.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span d
         | <b>Determinado:</b> obtener un mismo resultado no importa cuántas veces se ejecute.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span e
         | <b>Llegar a un resultado:</b> solucionar el problema detectado o resolver la tarea que se ha planteado.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span f
         | <b>Corto:</b> analizar los tiempos para optimizar los recursos de programación.
     
@@ -128,88 +128,88 @@
         .row.justify-content-center.mb-5
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-4.svg' style="max-width: 213px")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-4.svg' style="max-width: 213px" data-aos="fade-right")
           
         h2.text-center Cualitativos
-        p.mx-auto(style="max-width: 400px").text-center Cuando dentro de los pasos lógicos que lo conforman no se involucran operaciones matemáticas para obtener el resultado deseado.
+        p.mx-auto(style="max-width: 400px" data-aos="fade-left").text-center Cuando dentro de los pasos lógicos que lo conforman no se involucran operaciones matemáticas para obtener el resultado deseado.
 
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-5
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-5.svg' style="max-width: 213px")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-5.svg' style="max-width: 213px" data-aos="fade-right")
           
         h2.text-center(style="color: black") Cuantitativos
-        p.mx-auto(style="max-width: 400px; color: black").text-center Cuando dentro de los pasos lógicos se involucra operaciones y cálculos matemáticos que son necesarios para obtener el resultado esperado.
-    p.mb-5 Y un algoritmo se puede diseñar utilizando la técnica:
+        p.mx-auto(style="max-width: 400px; color: black" data-aos="fade-left").text-center Cuando dentro de los pasos lógicos se involucra operaciones y cálculos matemáticos que son necesarios para obtener el resultado esperado.
+    p.mb-5(data-aos="fade-right") Y un algoritmo se puede diseñar utilizando la técnica:
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-5
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-6.svg' style="max-width: 213px")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-6.svg' style="max-width: 213px" data-aos="fade-right")
           
         h2.text-center(style="color: black") Pseudocódigo
-        p.mx-auto(style="max-width: 400px; color: black").text-center Las instrucciones que se deben seguir paso a paso de manera lógica y ordenada se representan en forma descriptiva elaborando una serie de expresiones a manera de proposición o afirmación sobre un evento.
+        p.mx-auto(style="max-width: 400px; color: black" data-aos="fade-left").text-center Las instrucciones que se deben seguir paso a paso de manera lógica y ordenada se representan en forma descriptiva elaborando una serie de expresiones a manera de proposición o afirmación sobre un evento.
 
       .col-md.tarjeta.color-acento-contenido.p-5.texto-blanco
         .row.justify-content-center.mb-5
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-7.svg' style="max-width: 213px")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-7.svg' style="max-width: 213px" data-aos="fade-right")
           
         h2.text-center Diagrama de flujo
-        p.mx-auto(style="max-width: 400px").text-center Las instrucciones son representadas por medio de símbolos con formas específicas de acuerdo con la acción que se desea realizar. Este concepto se ampliará en el siguiente apartado.
+        p.mx-auto(style="max-width: 400px" data-aos="fade-left").text-center Las instrucciones son representadas por medio de símbolos con formas específicas de acuerdo con la acción que se desea realizar. Este concepto se ampliará en el siguiente apartado.
 
-    p.mb-5 <b>Ejemplo</b>
+    p.mb-5(data-aos="fade-right") <b>Ejemplo</b>
       br
       br
-      |En la historia “La isla de los tesoros escondidos”, se debe diseñar un algoritmo de búsqueda para encontrar el primer tesoro de cinco (5), el jugador pasará al siguiente nivel solo si lo ha encontrado y podrá terminar la primera fase del juego:
+      |En la historia <b>“La isla de los tesoros escondidos”</b>, se debe diseñar un algoritmo de búsqueda para encontrar el primer tesoro de cinco (5), el jugador pasará al siguiente nivel solo si lo ha encontrado y podrá terminar la primera fase del juego:
 
     ol.lista-ol--cuadro.lista-ol--separador.col-xl-10.mx-auto.mb-5
       li 
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span 1
         | <b>Preciso:</b> inicio.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span 2
         | <b>Paso 2:</b> mirar en el mapa los datos de la ubicación actual y las rutas que puede seguir.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span 3
         | <b>Paso 3:</b> seleccionar una ruta.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span 4
         | <b>Paso 4:</b> emprender la búsqueda.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span 5
         | <b>Paso 5:</b> ¿encontró un tesoro?.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span 6
         | <b>Paso 6:</b> Si es verdad pasar al siguiente nivel y terminar fase, de lo contrario volver al paso 2 y repetir la secuencia hasta encontrar el tesoro.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span 7
         | <b>Paso 7:</b> fin.
-    p.mb-5 Más adelante se verá este mismo algoritmo expresado en forma de diagrama de flujo para comprender la diferencia.
+    p.mb-5(data-aos="fade-right") Más adelante se verá este mismo algoritmo expresado en forma de diagrama de flujo para comprender la diferencia.
 
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
       h3.mb-0.ps-3 Programa
     
-    p.mb-5 Debido a que el diseño del algoritmo representado en forma de pseudocódigo o diagrama de flujo, no es comprensible por ningún ordenador que vaya a procesar las instrucciones, estas se deben traducir a un lenguaje entendible. Entonces:
+    p.mb-5(data-aos="fade-right") Debido a que el diseño del algoritmo representado en forma de pseudocódigo o diagrama de flujo, no es comprensible por ningún ordenador que vaya a procesar las instrucciones, estas se deben traducir a un lenguaje entendible. Entonces:
     
     .cajon.color-primario.p-4.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
-      p Un programa es la codificación de las instrucciones de un algoritmo en un lenguaje de programación, con una sintaxis correcta para que pueda ser interpretado por el ordenador.
+      p(data-aos="fade-right") Un programa es la codificación de las instrucciones de un algoritmo en un lenguaje de programación, con una sintaxis correcta para que pueda ser interpretado por el ordenador.
     
-    p.mb-5 La sintaxis correcta se refiere a que cada lenguaje de programación tiene ciertas reglas semánticas que se deben respetarse para que en el momento de ser procesadas por la computadora no se generen errores que impidan lograr los resultados esperados. Al proceso de escribir las líneas de código del programa se le denomina programación y las personas que se dedican a esta labor se les denomina programadores.
+    p.mb-5(data-aos="fade-right") La sintaxis correcta se refiere a que cada lenguaje de programación tiene ciertas reglas semánticas que se deben respetarse para que en el momento de ser procesadas por la computadora no se generen errores que impidan lograr los resultados esperados. Al proceso de escribir las líneas de código del programa se le denomina programación y las personas que se dedican a esta labor se les denomina programadores.
 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
       .tarjeta.p-4(titulo="Características de un lenguaje de programación" style="background-color: #DFF5FA")
         h4 Características de un lenguaje de programación
         p • Poseen reglas de sintaxis y semántica que se debe seguir al pie de la letra para que pueda ser interpretado por la computadora.
@@ -228,9 +228,9 @@
           br
           br
           |• Aplicación: conjunto de instrucciones escritas por programadores para que se ejecuten tareas específicas, por ejemplo procesar textos (Word), realizar cálculos (Excel), hacer presentaciones (PowerPoint), desarrollar videojuegos (Unity); entre muchos otros.
-    p.mb-5 El proceso que se lleva a cabo para que un programa sea ejecutado por el ordenador y realice la función deseada se muestra a continuación:
+    p.mb-5(data-aos="fade-right") El proceso que se lleva a cabo para que un programa sea ejecutado por el ordenador y realice la función deseada se muestra a continuación:
 
-    ImagenInfografica.col-xl-8.mx-auto.color-acento-botones.mb-5
+    ImagenInfografica.col-xl-8.mx-auto.color-acento-botones.mb-5(data-aos="fade-left")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema2/img-8.svg')
@@ -261,7 +261,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_2 2.2 Diagramas de flujo
     
-    p.mb-5 Es una herramienta de tipo gráfica que representa el diseño de un algoritmo y está compuesta por símbolos que indican las acciones a realizar para obtener un resultado que resuelve un problema, situación o tarea. Los símbolos están unidos por flechas las cuales señalan la secuencia lógica de ejecución de dichas acciones. Todo algoritmo tiene un comienzo y un final representados por sus símbolos respectivos. A continuación se explica cada uno de ellos, ver tabla 2:
+    p.mb-5(data-aos="fade-right") Es una herramienta de tipo gráfica que representa el diseño de un algoritmo y está compuesta por símbolos que indican las acciones a realizar para obtener un resultado que resuelve un problema, situación o tarea. Los símbolos están unidos por flechas las cuales señalan la secuencia lógica de ejecución de dichas acciones. Todo algoritmo tiene un comienzo y un final representados por sus símbolos respectivos. A continuación se explica cada uno de ellos, ver tabla 2:
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 2.
@@ -275,63 +275,63 @@
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-1.svg' style="max-width: 97px")
-          td Indica el inicio y la terminación del algoritmo.
+          td.text-start Indica el inicio y la terminación del algoritmo.
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-2.svg' style="max-width: 150px")
-          td Símbolo de entrada de datos, indica los valores iniciales que deberán ingresar para ser procesados.
+          td.text-start Símbolo de entrada de datos, indica los valores iniciales que deberán ingresar para ser procesados.
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-3.svg' style="max-width: 150px")
-          td Realización de un proceso llevado a cabo con los datos introducidos, indica operaciones matemáticas de las cuales se genera un resultado; por ejemplo: A ← B + C el resultado de sumarle B a C se almacena en la variable A. 
+          td.text-start Realización de un proceso llevado a cabo con los datos introducidos, indica operaciones matemáticas de las cuales se genera un resultado; por ejemplo: A ← B + C el resultado de sumarle B a C se almacena en la variable A. 
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-4.svg' style="max-width: 97px")
-          td Símbolo que indica la toma de una decisión. Al interior de él se coloca una pregunta que puede ser cierta/falsa y de la cual salen dos flechas que indica la ruta a seguir de acuerdo con la respuesta.
+          td.text-start Símbolo que indica la toma de una decisión. Al interior de él se coloca una pregunta que puede ser cierta/falsa y de la cual salen dos flechas que indica la ruta a seguir de acuerdo con la respuesta.
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-5.svg' style="max-width: 77px")
-          td Símbolos que indican haber alcanzado la solución de la tarea, evento o problema. Al interior se coloca la respuesta obtenida.
+          td.text-start Símbolos que indican haber alcanzado la solución de la tarea, evento o problema. Al interior se coloca la respuesta obtenida.
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-6.svg' style="max-width: 97px")
-          td Conector que se utiliza para enlazar dos partes del diagrama de flujo que se encuentran en una misma página o interfaz (pantalla) de usuario.
+          td.text-start Conector que se utiliza para enlazar dos partes del diagrama de flujo que se encuentran en una misma página o interfaz (pantalla) de usuario.
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-7.svg' style="max-width: 97px")
-          td Conector que enlaza dos parte de un diagrama de flujo donde sus partes se encuentra en páginas diferentes.
+          td.text-start Conector que enlaza dos parte de un diagrama de flujo donde sus partes se encuentra en páginas diferentes.
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-8.svg' style="max-width: 138px")
-          td Flechas que conectan los procesos e indican el flujo del diagrama de flujo.
-    p.mb-5 Los diagramas de flujo tienen unas reglas de elaboración, las cuales son:
+          td.text-start Flechas que conectan los procesos e indican el flujo del diagrama de flujo.
+    p.mb-5(data-aos="fade-right") Los diagramas de flujo tienen unas reglas de elaboración, las cuales son:
 
     ol.lista-ol--cuadro.lista-ol--separador.col-xl-10.mx-auto.mb-5
       li 
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span a
         | Se deben elaborar en orden lógico que empieza arriba y termina abajo.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span b
         | Inician y finalizan con el mismo símbolo.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span c
         | Las flechas que se coloquen deben indicar el flujo o secuencia de las acciones a realizar.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span d
         | Los símbolos que indican decisión deben tener dos líneas de salida; una cuando la pregunta o afirmación que se coloca al interior es verdadera la cual debe tener encima la palabra SI y la otra en el caso contrario y a la cual se le debe colocar encima la palabra NO.
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span e
         | Lo que se escriba al interior de los símbolos debe tener el menor número de palabras posibles o contener operaciones claras:  Z ← A – B
       li
-        .lista-ol--cuadro__vineta
+        .lista-ol--cuadro__vineta(data-aos="fade-right")
           span f
         | El diagrama debe probarse con datos reales para verificar su funcionamiento. A esta verificación se le llama “prueba de escritorio”.
-    p.mb-5 Las ventajas que tiene elaborar un algoritmo utilizando esta técnica, son las siguientes:
+    p.mb-5(data-aos="fade-right") Las ventajas que tiene elaborar un algoritmo utilizando esta técnica, son las siguientes:
 
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -339,26 +339,26 @@
           img(src='@/assets/curso/temas/tema2/n-1.svg' style="max-width: 138px")
           .tarjeta(style="background-color: #E1DDFC")
             .p-4
-              p.text-center Facilita la visualización general del problema, situación o tarea a resolver.
+              p.text-center(data-aos="fade-right") Facilita la visualización general del problema, situación o tarea a resolver.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/n-2.svg' style="max-width: 138px")
           .tarjeta(style="background-color: #E1DDFC")
             .p-4
-              p.text-center Identifica con facilidad si los pasos que se han diseñado para la solución del problema tienen la secuencia lógica para lograr una solución adecuada.
+              p.text-center(data-aos="fade-right") Identifica con facilidad si los pasos que se han diseñado para la solución del problema tienen la secuencia lógica para lograr una solución adecuada.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/n-3.svg' style="max-width: 138px")
           .tarjeta(style="background-color: #E1DDFC")
             .p-4
-              p.text-center Permite verificar con datos reales si el diseño de las instrucciones logra la solución planteada.
+              p.text-center(data-aos="fade-right") Permite verificar con datos reales si el diseño de las instrucciones logra la solución planteada.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/n-4.svg' style="max-width: 138px")
           .tarjeta(style="background-color: #E1DDFC")
             .p-4
-              p.text-center Comprueba si hay procedimientos que se repiten.
+              p.text-center(data-aos="fade-right") Comprueba si hay procedimientos que se repiten.
     p.mb-5 <b>Ejemplo</b>
       br
       br
@@ -366,20 +366,20 @@
 
     .col-xl-6.col-lg-10.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
-        h5 Figura 1.
+        h5 Figura 2.
         span Diagrama de flujo de una tarea a realizar en el juego “La isla de los tesoros escondidos”
-      img(src="@/assets/curso/temas/tema2/img-9.svg")
+      img(src="@/assets/curso/temas/tema2/img-9.svg" data-aos="fade-left")
 
     .cajon.color-primario.p-4.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
-      p Un programa es la codificación de las instrucciones de un algoritmo en un lenguaje de programación, con una sintaxis correcta para que pueda ser interpretado por el ordenador.
+      p(data-aos="fade-right") Un programa es la codificación de las instrucciones de un algoritmo en un lenguaje de programación, con una sintaxis correcta para que pueda ser interpretado por el ordenador.
 
-    p.mb-5 <b>Ejemplo</b>
+    p.mb-5(data-aos="fade-right") <b>Ejemplo</b>
       br
       br
-      |En la siguiente figura se observa el diagrama de flujo del ejemplo de la historia “La isla de los tesoros escondidos”, en la cual se había elaborado un algoritmo con la técnica de Pseudocódigo.  En este diagrama, ver figura 2, se ilustra la actividad que se le ha propuesto llevar a cabo al jugador.
+      |En la siguiente figura se observa el diagrama de flujo del ejemplo de la historia <b>“La isla de los tesoros escondidos”</b>, en la cual se había elaborado un algoritmo con la técnica de Pseudocódigo.  En este diagrama, ver figura 2, se ilustra la actividad que se le ha propuesto llevar a cabo al jugador.
 
     .row.mb-5
-      .col-auto.mx-auto
+      .col-auto.mx-auto(data-aos="fade-left")
         a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
           span Vamos a practicar
           img.ms-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 27px")
@@ -392,17 +392,17 @@
           p.mb-3 Suponga que debe modificar el algoritmo diseñado anteriormente de tal forma que si el jugador no encuentra el tesoro, debe pedir una pista para lo cual se le descuentan 20 monedas y cuando encuentre el tesoro se le dará una recompensa de 50 monedas y podrá terminar esta fase del juego.
           p <b>Tarea #1</b>
             br
-            |Diseñar el algoritmo utilizando la técnica de Pseudocódigo.
+            |Diseñar el algoritmo utilizando la técnica de <b>Pseudocódigo.</b>
             br
             br
             |<b>Tarea #2</b>
             br
-            |Diseñar el algoritmo utilizando la técnica de Diagrama de Flujo.
+            |Diseñar el algoritmo utilizando la técnica de <b>Diagrama de Flujo.</b>
         img.mb-4.mb-md-0.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 238px")
     
-    p.mb-5.text-center Para complementar el aprendizaje de la temática se recomienda hacer la siguiente lectura:
+    p.mb-5.text-center(data-aos="fade-right") Para complementar el aprendizaje de la temática se recomienda hacer la siguiente lectura:
 
-    .tarjeta.p-3.col-lg-8.mx-auto(style="background-color: #C0EBF6")
+    .tarjeta.p-3.col-lg-8.mx-auto(style="background-color: #C0EBF6" data-aos="fade-left")
       .row.justify-content-around.align-items-center
         img(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 98px")
         .col
@@ -418,58 +418,58 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_3 2.3 Conceptos de variables, operadores, funciones, métodos, estructuras de control
     
-    p.mb-5 En los lenguajes de programación dentro de la sintaxis de las líneas de código; se utilizan elementos o identificadores los cuales son utilizados dentro de la estructura del programa para lograr la solución del problema, situación o tarea determinada. A continuación, se estudiará cada uno de ellos.
+    p.mb-5(data-aos="fade-right") En los lenguajes de programación dentro de la sintaxis de las líneas de código; se utilizan elementos o identificadores los cuales son utilizados dentro de la estructura del programa para lograr la solución del problema, situación o tarea determinada. A continuación, se estudiará cada uno de ellos.
 
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
       h3.mb-0.ps-3 Variables
     
-    p.mb-5 Son espacios en la memoria del ordenador con un nombre que las identifica (identificador); los cuales son destinados para el almacenamiento de datos que pueden tomar diferentes tipos de valores durante la ejecución del programa. 
+    p.mb-5(data-aos="fade-right") Son espacios en la memoria del ordenador con un nombre que las identifica (identificador); los cuales son destinados para el almacenamiento de datos que pueden tomar diferentes tipos de valores durante la ejecución del programa. 
       br
       br
       |Los <b>tipos de datos</b> que pueden almacenar las variables son:
     
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-edit")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-edit" data-aos="fade-left")
       .row(titulo="Numéricos")
-        .col-md-6.mb-4.mb-md-0
+        .mb-4.mb-md-0
           p.col-lg-10.mx-auto Representados por valores enteros o valores reales que incorporan el signo, por ejemplo el valor -5 corresponde a un número entero con signo negativo y 4,5 corresponde a un valor real con un solo decimal y sin signo.
       .row(titulo="Lógicos")
-        .col-md-6.mb-4.mb-md-0
+        .mb-4.mb-md-0
           p.col-lg-10.mx-auto Son tipos de datos que representa uno de dos valores “ falso” o “ verdadero”, utilizados en los algoritmos cuando se diseñan instrucciones en las cuales se debe cumplir una condición para la toma de una decisión; por ejemplo la condición es encontrar el tesoro; si la respuesta es verdadera puede continuar al siguiente nivel y si es falsa debe seguir buscando.
       .row(titulo="Alfanumérico")
-        .col-md-6.mb-4.mb-md-0
+        .mb-4.mb-md-0
           p.col-lg-10.mx-auto Son datos representados por caracteres diferentes a los números puros o a los lógicos; pues estos pueden contener letras con números y símbolos especiales como guion (-),asterisco (*), símbolo de número (#), entre otros.
     
     .cajon.color-primario.p-4.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
-      p Dentro de las líneas de código del programa se debe indicar el tipo de variable que se está creando; es decir qué tipo de valor almacenará;  a esto se le llama declarar una variable. Por ejemplo si la variable se declara tipo numérica, entonces no podrá contener caracteres.
+      p(data-aos="fade-left") Dentro de las líneas de código del programa se debe indicar el tipo de variable que se está creando; es decir qué tipo de valor almacenará;  a esto se le llama declarar una variable. Por ejemplo si la variable se declara tipo numérica, entonces no podrá contener caracteres.
     
-    p.mb-5 En el lenguaje de programación de C# utilizado en el programa de Unity para el desarrollo de videojuegos, se deben tener en cuenta una serie de reglas para definir variables:
+    p.mb-5(data-aos="fade-right") En el lenguaje de programación de C# utilizado en el programa de Unity para el desarrollo de videojuegos, se deben tener en cuenta una serie de <b>reglas para definir variables:</b>
 
     ul.mb-5
       li.d-flex.slign-items-center
-        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px")
+        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px" data-aos="fade-right")
         span.ps-3 El nombre de la variable no puede comenzar con un número pero si puede hacer parte del nombre.
       li.d-flex.slign-items-center
-        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px")
+        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px" data-aos="fade-right")
         span.ps-3 No se pueden colocar espacios dentro del nombre.
       li.d-flex.slign-items-center
-        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px")
+        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px" data-aos="fade-right")
         span.ps-3 No puede contener caracteres como +, - que los cuales son utilizados en operaciones matemáticas.
       li.d-flex.slign-items-center
-        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px")
+        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px" data-aos="fade-right")
         span.ps-3 No pueden existir dos variables que se llamen igual  dentro de un mismo bloque de instrucciones.
       li.d-flex.slign-items-center
-        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px")
+        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px" data-aos="fade-right")
         span.ps-3 No se pueden utilizar nombres con palabras propias del lenguaje de programación; por ejemplo la no se puede llamar a una variable “int”  pues esta es una palabra que reserva el programa para definir que el tipo de datos es entero. 
       li.d-flex.slign-items-center
-        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px")
+        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px" data-aos="fade-right")
         span.ps-3 El lenguaje hace diferencia entre letras mayúsculas y minúsculas; por ejemplo las variables X y x son diferentes.
       li.d-flex.slign-items-center
-        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px")
+        img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px" data-aos="fade-right")
         span.ps-3 Se recomienda darle un valor inicial a la variable.
     
     .conatiner-left-right.mb-5(style="background-color: #F7F6FE")
-      .d-flex.flex-wrap.py-4
+      .col-xl-10.mx-auto.d-flex.flex-wrap.py-4(data-aos="fade-right")
         p.col-md.pe-md-4 <b>Ejemplo</b>
           br
           br
@@ -477,14 +477,14 @@
           br
           br
           |Las palabras marcadas en rojo son palabras que hacen parte de la sintaxis del lenguaje; bool indica que la variable A es de tipo lógico y que puede contener el valor de true o false y en este caso la viable se inicializó con “false”. La variable B es de tipo numérico que puede tomar valores enteros y se ha inicializado con el valor “80”.
-        img(src="@/assets/curso/temas/tema2/img-11.svg" style="max-width: 190px")
+        img(src="@/assets/curso/temas/tema2/img-11.svg" style="max-width: 190px" data-aos="fade-left")
     
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
       h3.mb-0.ps-3 Operadores
-    p.mb-5 Son elementos dentro de la programación, con los cuales se realizan operaciones básicas sobre los datos. Cuando el programa fuente es compilado el ordenador realiza internamente los procedimientos matemáticos o lógicos para entregar el resultado.
+    p.mb-5(data-aos="fade-right") Son elementos dentro de la programación, con los cuales se realizan operaciones básicas sobre los datos. Cuando el programa fuente es compilado el ordenador realiza internamente los procedimientos matemáticos o lógicos para entregar el resultado.
   
-    .tabla-b.color-acento-contenido.mb-5.col-xl-10.mx-auto(data-aos="fade-right")
+    .tabla-b.color-acento-contenido.mb-5(data-aos="fade-right")
       .tabla-b__header.d-flex
         h4.mb-0.text-white.text-center(style="width: 28%") Operador
         h4.mb-0.text-white.col.text-center Operandos
@@ -497,8 +497,9 @@
             br
             |<b>variables, números</b>
 
-    .p-4.mx-auto.mb-5(style="background-color: #E1DDFC; max-width: 400px")
+    .p-4.mx-auto.mb-5(style="background-color: #E1DDFC; max-width: 400px" data-aos="fade-left")
       p •  Lo que se quiere es sumar las variables A,B y colocar el resultado en la variable Total
+        br
         |•  Limpiar los valores  
         br
         br
@@ -511,9 +512,9 @@
         br
         |<b>Limpiar (A y B): _________</b>
     
-    p.mb-5 En el lenguaje de programación C# el cual se utiliza en Unity para el desarrollo de los videojuegos, se distinguen los siguientes tipos de operadores:
+    p.mb-5(data-aos="fade-right") En el lenguaje de programación C# el cual se utiliza en Unity para el desarrollo de los videojuegos, se distinguen los siguientes tipos de operadores:
 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
       .tarjeta.p-4(titulo="Operadores de Asignación" style="background-color: #DFF5FA")
         p.mb-0 <b>Operadores de Asignación</b>
           br
@@ -638,7 +639,7 @@
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
       h3.mb-0.ps-3 Funciones y métodos
     
-    p.mb-5 Son procedimientos dentro de la programación llamados bloques y en los cuales se escriben líneas de código o instrucciones para llevar a cabo una determinada acción dentro del programa. Estos elementos le proporcionan una estructura modular al programa ya que líneas de código pueden ser invocados en otra parte del programa, sin necesidad de repetirlas o también se pueden invocar en otros programas para no escribirlas de nuevo. La diferencia entre estos dos procedimientos radica en siguiente característica:
+    p.mb-5(data-aos="fade-right") Son procedimientos dentro de la programación llamados bloques y en los cuales se escriben líneas de código o instrucciones para llevar a cabo una determinada acción dentro del programa. Estos elementos le proporcionan una estructura modular al programa ya que líneas de código pueden ser invocados en otra parte del programa, sin necesidad de repetirlas o también se pueden invocar en otros programas para no escribirlas de nuevo. La diferencia entre estos dos procedimientos radica en siguiente característica:
 
     .col-lg-8.col-xl-6.row.mb-5.mx-auto
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -656,11 +657,11 @@
               p.fw-bold Método
               p.text-center Es un bloque de instrucciones que cuando se ejecutan no necesariamente retornan un valor.
 
-    p.mb-5 De acuerdo con lo anterior, todos los bloques de instrucciones que lleven a cabo alguna acción dentro del programa se llaman métodos.
+    p.mb-5(data-aos="fade-right") De acuerdo con lo anterior, todos los bloques de instrucciones que lleven a cabo alguna acción dentro del programa se llaman métodos.
 
     .conatiner-left-right.mb-5(style="background-color: #F7F6FE")
       .d-flex.flex-wrap.col-xl-10.mx-auto.py-4.mb-4
-        p.col-lg-6.col-xl-8.pe-lg-3 <b>Ejemplo</b>
+        p.col-lg-6.col-xl-8.pe-lg-3(data-aos="fade-right") <b>Ejemplo</b>
           br
           br
           |En el lenguaje de programación C# (que se utiliza en Unity):
@@ -670,10 +671,10 @@
           br
           br
           |La primera instrucción indica que el procedimiento que se va a realizar se llama local el cual es de tipo privado y devuelve un valor entero, contiene dos para parámetros: una variable de tipo entera llamada A y otra del mismo tipo llamada B.
-        img.col-lg-6.col-xl-4(src="@/assets/curso/temas/tema2/img-14.svg")
+        img.col-lg-6.col-xl-4(src="@/assets/curso/temas/tema2/img-14.svg" data-aos="fade-left")
       .d-flex.flex-wrap.col-xl-10.mx-auto.py-4
-        img.col-lg-6.col-xl-4(src="@/assets/curso/temas/tema2/img-15.svg")
-        p.col-lg-6.col-xl-8.ps-lg-3 Los procedimientos pueden ser de tipo private o public, es decir, si el bloque de instrucciones solo se puede utilizar en el programa actual es private, pero si se puede utilizar en otros es public. El procedimiento suma las variables A y B retornando el resultado en la variable total. Como hay un resultado que se genera el procedimiento es una <b>Función.</b>
+        img.col-lg-6.col-xl-4(src="@/assets/curso/temas/tema2/img-15.svg" data-aos="fade-right")
+        p.col-lg-6.col-xl-8.ps-lg-3(data-aos="fade-left") Los procedimientos pueden ser de tipo private o public, es decir, si el bloque de instrucciones solo se puede utilizar en el programa actual es private, pero si se puede utilizar en otros es public. El procedimiento suma las variables A y B retornando el resultado en la variable total. Como hay un resultado que se genera el procedimiento es una <b>Función.</b>
           br
           br
           |La primera instrucción indica que el procedimiento que se va a realizar se llama limpiar el cual es de tipo privado (private) y retorna un valor nulo (void),  en las cajas de texto (txt) de las variables A,B y total. Obsérvese que como el procedimiento no devuelve un valor, entonces es un método.
@@ -682,9 +683,9 @@
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
       h3.mb-0.ps-3 Estructuras de control
     
-    p.mb-5 Las estructuras de control permiten que se ejecuten los procedimientos o bloques de instrucciones de una manera secuencial, condicional o repetitiva.
+    p.mb-5(data-aos="fade-right") Las estructuras de control permiten que se ejecuten los procedimientos o bloques de instrucciones de una manera secuencial, condicional o repetitiva.
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-edit")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-edit" data-aos="fade-left")
       .row(titulo="Estructura de control secuencial")
         .w-100
           p.col-lg-11.mx-auto.mb-4 Permite que las instrucciones de un procedimiento se ejecuten una tras otra, es decir en secuencia. 
@@ -719,13 +720,13 @@
             br
             |•   Hasta que llegue a 20
           img.mx-auto(src="@/assets/curso/temas/tema2/img-18.png" style="max-width: 892px")
-    p.mb-4 Para complementar el aprendizaje de las temáticas se recomienda la lectura de los textos Documentación de C# y Fundamentos del lenguaje C#, los cuales se encuentran en el material complementario
+    p.mb-4(data-aos="fade-right") Para complementar el aprendizaje de las temáticas se recomienda la lectura de los textos Documentación de C# y Fundamentos del lenguaje C#, los cuales se encuentran en el material complementario
     Separador 
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_4 2.4 Funciones de eventos y control de acciones
     
-    p.mb-5 En la programación orientada a objetos se mencionaron las características de abstracción, encapsulamiento, herencia y polimorfismo; aspectos que se aplican a los objetos de una situación o tarea determinada y el desarrollador construye líneas de código que son aplicadas a estos casos:
+    p.mb-5(data-aos="fade-right") En la programación orientada a objetos se mencionaron las características de abstracción, encapsulamiento, herencia y polimorfismo; aspectos que se aplican a los objetos de una situación o tarea determinada y el desarrollador construye líneas de código que son aplicadas a estos casos:
 
     .col-xl-10.mx-auto.row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -743,36 +744,36 @@
     
     .d-flex.flex-wrap.mb-5
       img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px")
-      p.mb-0.ps-2 Evento
+      p.mb-0.ps-2.fw-bold Evento
     
-    p.mb-5 Es entonces una acción que es ejecutada sobre un objeto del programa y que es provocada por el usuario al interactuar con la interfaz de este (programa), recuérdese que la interfaz es la pantalla inicial que el usuario visualiza y en la cual puede llevar a cabo acciones. 
+    p.mb-5(data-aos="fade-right") Es entonces una acción que es ejecutada sobre un objeto del programa y que es provocada por el usuario al interactuar con la interfaz de este (programa), recuérdese que la interfaz es la pantalla inicial que el usuario visualiza y en la cual puede llevar a cabo acciones. 
       br
       br
       |Cuando se estén escribiendo las líneas de código se deben tener en cuenta los eventos que se pueden dar sobre los objetos creados dentro del programa; por ejemplo cuando el usuario hace clic sobre un botón ocurre algo al interior del sistema que hace que se active alguna función determinada. Los eventos incluyen: 
 
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0.d-flex
-        .d-flex.align-items-center.justify-content-center.w-100.tarjeta(style="background-color: #E1DDFC")
+        .d-flex.align-items-center.justify-content-center.w-100.tarjeta(style="background-color: #FAE8C6")
           .p-4
-            p.mb-0.text-center Mouse
+            p.fw-bold.mb-0.text-center(data-aos="fade-right") Mouse
       .col-md-6.col-lg.mb-5.mb-lg-0.d-flex
-        .d-flex.align-items-center.justify-content-center.w-100.tarjeta(style="background-color: #E1DDFC")
+        .d-flex.align-items-center.justify-content-center.w-100.tarjeta(style="background-color: #FAE8C6")
           .p-4
-            p.mb-0.text-center Teclado
+            p.fw-bold.mb-0.text-center(data-aos="fade-right") Teclado
       .col-md-6.col-lg.mb-5.mb-lg-0.d-flex
-        .d-flex.align-items-center.justify-content-center.w-100.tarjeta(style="background-color: #E1DDFC")
+        .d-flex.align-items-center.justify-content-center.w-100.tarjeta(style="background-color: #FAE8C6")
           .p-4
-            p.mb-0.text-center Interfaz de usuario
+            p.fw-bold.mb-0.text-center(data-aos="fade-left") Interfaz de usuario
       .col-md-6.col-lg.mb-5.mb-lg-0.d-flex
-        .d-flex.align-items-center.justify-content-center.w-100.tarjeta(style="background-color: #E1DDFC")
+        .d-flex.align-items-center.justify-content-center.w-100.tarjeta(style="background-color: #FAE8C6")
           .p-4
-            p.mb-0.text-center Acciones que se activan cuando ocurren
+            p.fw-bold.mb-0.text-center(data-aos="fade-left") Acciones que se activan cuando ocurren
     
     .d-flex.flex-wrap.mb-5
       img(src='@/assets/curso/temas/decorador-2.svg' style="max-width: 25px")
-      p.mb-0.ps-2 Funciones y controlador de eventos
+      p.mb-0.ps-2.fw-bold Funciones y controlador de eventos
     
-    p.mb-5 Cuando ocurre un evento sobre algún objeto del programa se activa el bloque de instrucciones que contienen la función que debe entrar a operar para controlar el evento. Esta función despliega una serie de acciones que lleva a cabo el sistema para controlar el evento y responderle al usuario en la interfaz con la que él está interactuando.
+    p.mb-5(data-aos="fade-right") Cuando ocurre un evento sobre algún objeto del programa se activa el bloque de instrucciones que contienen la función que debe entrar a operar para controlar el evento. Esta función despliega una serie de acciones que lleva a cabo el sistema para controlar el evento y responderle al usuario en la interfaz con la que él está interactuando.
       br
       br
       |Las ventajas de tener en cuenta los eventos en el desarrollo de programas radican en que:
@@ -804,13 +805,15 @@
           .w-100.tarjeta(style="background-color: #E1DDFC")
             .p-4
               p.text-center La interfaz del programa es mas amigable ya que ofrece opciones como botones, menús, ventanas, casillas de verificación, entre otras y los usuarios pueden escoger cual de estos utilizar para navegar en él.
-    p.mb-5 Ejemplo
-
+    p.mb-5(data-aos="fade-right") <b>Ejemplo</b>
+      br
+      br
       |En Unity se desea crear un evento en el cual el usuario presione el botón Exit y salga del juego. En el proyecto en el que se está trabajando realizar las siguientes acciones:
     
     .tarjeta.p-4.mb-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-linea-tiempo.svg')})`}"
       style="background-size: cover"
+      data-aos="fade-left"
     )
       PasosB.color-acento-botones
         .row.px-3
@@ -914,7 +917,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_5 2.5 Estructura básica de un script de Unity3D
     
-    p.mb-5 El lenguaje de programación que se utiliza en Unity es el lenguaje C# y a las líneas de código que lo configuran se les llama Scripts, las cuales consisten en una secuencia de instrucciones que se escriben en un editor de texto que es adjuntado en Unity al hacer su instalación en el PC; este editor de escritura es el Visual Studio. 
+    p.mb-5(data-aos="fade-right") El lenguaje de programación que se utiliza en Unity es el lenguaje C# y a las líneas de código que lo configuran se les llama Scripts, las cuales consisten en una secuencia de instrucciones que se escriben en un editor de texto que es adjuntado en Unity al hacer su instalación en el PC; este editor de escritura es el Visual Studio. 
       br
       br
       |El objeto de escribir líneas de código en Unity es para asignarle comportamientos específicos a los componentes del juego (<em>GameObjects</em>), crear eventos y desarrollar funciones que controlen acciones determinadas.
@@ -922,7 +925,7 @@
       br
       |El lenguaje C# se compone de:
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-edit")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-edit" data-aos="fade-left")
       .row.col-xl-11.mx-auto(titulo="Variables")
         .col-lg.order-2.order-lg-1
           p Como se mencionó antes son espacios reservados en la memoria para almacenar valores de diferentes tipos, ya se vio en los anteriores apartados su tipología (numéricos, lógicos, alfanuméricos), pero en Unity también hay tipos de datos de referencia que se aplican a los objetos como Transform y Light que se visualizan en la ventana del Inspector; donde la primera trata con aspectos de posición, rotación y tamaño del objeto y la segunda con efectos de iluminación.
@@ -1045,12 +1048,12 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_6 2.6 Control mediante interfaz de usuario (Inspector)
     
-    p.mb-5 La interfaz de usuario es (UI) es la manera en que este interacciona con el programa; en este caso la forma en que un jugador se comunica con el videojuego interactuando con él. El motor de Unity posee un componente llamado Canvas que actúa como un contenedor o plantilla donde se pueden colocar todos los elementos u objetos  que van a hacer parte de la interfaz del usuario. Canvas quieres decir lienzo y es el espacio donde se van a colocar imágenes, botones, textos, personajes, formas, entre otros que pueden ser controlados a través de la ventana del inspector.
+    p.mb-5(data-aos="fade-right") La interfaz de usuario es (UI) es la manera en que este interacciona con el programa; en este caso la forma en que un jugador se comunica con el videojuego interactuando con él. El motor de Unity posee un componente llamado Canvas que actúa como un contenedor o plantilla donde se pueden colocar todos los elementos u objetos  que van a hacer parte de la interfaz del usuario. Canvas quieres decir lienzo y es el espacio donde se van a colocar imágenes, botones, textos, personajes, formas, entre otros que pueden ser controlados a través de la ventana del inspector.
       br
       br
       |Para utilizar Canvas entonces en la interfaz inicial de Unity se realizan las siguientes acciones:
     
-    .tarjeta.mb-5.p-4.px-md-5(style="background-color: #D8F3F9")
+    .tarjeta.mb-5.p-4.px-md-5(style="background-color: #D8F3F9" data-aos="fade-left")
       SlyderA(tipo="b")
         .row
           .col-md-4.mb-4.mb-md-0
@@ -1095,12 +1098,12 @@
               img(src='@/assets/curso/temas/tema2/img-31.jpg')
               figcaption Componentes.
 
-    p.mb-5 <b>Ejemplo</b>
+    p.mb-5(data-aos="fade-right") <b>Ejemplo</b>
       br
       br
       |Construir un botón de inicio de sesión utilizando interfaz de usuario.
     
-      .tarjeta.mb-5.p-4.px-md-5(style="background-color: #D8F3F9")
+      .tarjeta.mb-5.p-4.px-md-5(style="background-color: #D8F3F9" data-aos="fade-left")
         SlyderA(tipo="b")
           .row
             .col-md-4.mb-4.mb-md-0
@@ -1134,7 +1137,7 @@
                 img(src='@/assets/curso/temas/tema2/img-33.jpg')
                 figcaption El área de Canvas está listo para adicionar otros componentes si se desea.
 
-    p Para profundizar en la ventana del Inspector del Canvas y en las temáticas de programación en Unity3D se recomienda consultar los siguientes sitios web:
+    p(data-aos="fade-right") Para profundizar en la ventana del Inspector del Canvas y en las temáticas de programación en Unity3D se recomienda consultar los siguientes sitios web:
 </template>
 
 <script>
